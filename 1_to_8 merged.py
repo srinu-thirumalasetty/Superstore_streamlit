@@ -43,7 +43,7 @@ if 'Ship Mode' in df.columns:
     #fig_bar = px.bar(results_df, x='Ship Mode', y=s2, title=f'{s2} by Ship Mode', width=1000, height=600)
     #fig_line = px.line(results_df, x='Ship Mode', y=s2, title=f'{s2} by Ship Mode', markers=True, width=1000, height=600)
     #fig_scatter = px.scatter(results_df, x='Ship Mode', y=s2, title=f'{s2} by Ship Mode', width=1000, height=600)
-    #these commented plots can be uncommented to ge a plot of choice/requirement
+    #these commented plots can be uncommented to get a plot of choice/requirement
     st.plotly_chart(fig_pie)
     #st.plotly_chart(fig_bar)
     #st.plotly_chart(fig_line)
@@ -79,7 +79,7 @@ st.write(s_df)
 fig_bar = px.bar(s_df, x=s3, y='Profit', title=f'Top 10 {s32} of Profit per {s3}')
 st.plotly_chart(fig_bar)
 
-#these commented plots can be uncommented to ge a plot of choice/requirement same same
+#these commented plots can be uncommented to get a plot of choice/requirement same same
 # fig_line = px.line(s_df, x=s3, y='Profit', title=f'Top 10 {s32} of Profit per {s3}', markers=True, width=1000, height=600)
 # st.plotly_chart(fig_line)
 # fig_pie = px.pie(s_df, names=s3, values='Profit', title=f'Top 10 {s32} of Profit per {s3}', width=1000, height=600)
@@ -93,7 +93,7 @@ st.write(dat45)
 fig_line = px.line(dat45, x='Discount', y=s45, title="Total {} by Discount".format(s45),markers=True, width=1000, height=600)
 st.plotly_chart(fig_line)
 
-#these commented plots can be uncommented to ge a plot of choice/requirements
+#these commented plots can be uncommented to get a plot of choice/requirements same same
 # fig_bar = px.bar(dat45, x='Discount', y=s45, title="Total {} by Discount".format(s45), width=1000, height=600)
 #st.plotly_chart(fig_bar)
 # fig_pie = px.pie(dat45, values=s45, names='Discount', title="Total {} by Discount".format(s45), width=1000, height=600)
@@ -128,7 +128,7 @@ st.write(summary_df)
 fig_bar = px.bar(summary_df, x='Customer ID', y=s45, title=f"{s45} by Customer ID", width=1000, height=600)
 st.plotly_chart(fig_bar)
 
-#these commented plots can be uncommented to ge a plot of choice/requirements
+#these commented plots can be uncommented to get a plot of choice/requirements same same
 # fig_pie = px.pie(summary_df, names='Customer ID', values=s45, title=f"{s45} by Customer ID", width=1000, height=600)
 # st.plotly_chart(fig_pie)
 # fig_line = px.line(summary_df, x='Customer ID', y=s45, title=f"{s45} by Customer ID", markers=True, width=1000, height=600)
@@ -149,7 +149,7 @@ st.plotly_chart(fig_bar)
 fig_line = px.line(t8_df, x=s8, y='Number of Orders', title=f"Number of Orders by {s8}", markers=True, width=1000, height=600)
 st.plotly_chart(fig_line)
 
-# these commented plots can be uncommented to ge a plot of choice/requirements
+# these commented plots can be uncommented to get a plot of choice/requirements same same
 # fig_pie = px.pie(t8_df, names=s8, values='Number of Orders', title=f'Number of Orders by {s8}', width=1000, height=600)
 # st.plotly_chart(fig_pie)
 
